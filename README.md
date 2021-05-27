@@ -13,3 +13,15 @@ usb_cam is released with a BSD license. For full terms and conditions, see the [
 
 ### Authors
 See the [AUTHORS](AUTHORS.md) file for a full list of contributors.
+
+STIIMA instruction
+
+3.1.	Install
+Install usb_cam - ROS Wiki. 
+Build the package in the src of the catkin workspace where ROS is installed.
+3.2.	Run
+On the Linux computer terminals:
+1.	Run the roscore (if you didn’t run it for the phidgets or with the force platforms)
+2.	Run the launch file:
+roslaunch usb_cam usb_cam-test.launch
+Errors: In case the launch file doesn’t recognize your camera change in the launch file the dev/video_number with the video_number of your usb_camera.
